@@ -6,10 +6,12 @@ form.addEventListener('submit', function(event){
     //pull input and create a const that contains the textContent of input text
     const name = form.elements.name.value;
     const category = form.elements.category.value;
+    const quantity = form.elements.quantity.value;
 
     const singleItem = {
         name: name,
-        category: category
+        category: category,
+        quantity: quantity
     };
 
     let allItems = [];

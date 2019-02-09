@@ -9,11 +9,22 @@
 <body>
     <header></header>
     <main>
+        <form id="form">
+            <label>Sort by Category:</label>
+            <select id="category-sort">
+                <option value="winter">Winter</option>
+                <option value="spring">Spring</option>
+                <option value="fall">Fall</option>
+                <option value="summer">Summer</option>
+            </select>
+            <button>SORT IT</button>
+        </form>
         <table>
             <thead>
                 <tr>
                     <td>Item</td>
                     <td>Category</td>
+                    <td>Quantity</td>
                 </tr>
             </thead>
             <tbody id="all-items"></tbody>

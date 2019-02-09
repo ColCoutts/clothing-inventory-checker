@@ -26,8 +26,9 @@ for(let i = 0; i < allItems.length; i++) {
 //text.content = something.value
 const name = document.getElementById('name');
 const category = document.getElementById('category');
+const quantity = document.getElementById('quantity');
 
 name.textContent = populateItem.name;
 category.textContent = populateItem.category;
-
+quantity.textContent = populateItem.quantity;
 
